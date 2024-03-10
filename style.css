@@ -1,0 +1,126 @@
+/* Barra de navegacion */
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+.navbar i{
+    color: black;
+    font-size: 2rem;
+}
+.navbar .bi-bag{
+    font-size: 3rem;
+}
+.navbar .nav-brand{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+/* Boton */
+.bg-primary{
+    background-color: #e5345b !important;
+}
+
+/* media queries */
+@media(min-width:992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+/* Header */
+#header{
+    background: url(./images/header.png) top/cover no-repeat;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.nav-btns .btn{
+    background-color: white;
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgba(85,85,85);
+}
+.nav-btns .btn:hover{
+    background-color: #e5345b;
+    color: white;
+    border-color: #e5345b;
+}
+.carousel-inner h1{
+    font-size: 60px;
+}
+
+/* coleccion */
+
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #e5345b;
+    left: -20px;
+    top: 50%;
+    margin-top: -25px;
+}
+.boto .btn{
+    background-color: white;
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgba(85,85,85);
+}
+.boto .btn:hover{
+    background-color: #e5345b;
+    color: white;
+    border-color: #e5345b;
+}
+.active-filt{
+    background-color: #e5345b !important;
+    color: white;
+    border-color: #e5345b !important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* especial */
+.especial-img span{
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.text-primary i{
+    color: #e5345b;
+    font-size: 30px;
+}
+
+/* Correo */
+#correo{
+    background-color: rgb(248, 248, 248);
+}
+#correo .input-group{
+    max-width: 500px;
+}
+#correo .form-control{
+    border-top-left-radius:25px ;
+    border-bottom-left-radius:25px ;
+}
+#correo .btn{
+    background-color: #e5345b;
+    color: white;
+    border-color: #e5345b;
+    padding: 10px 28px;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid rgba(85,85,85);
+}
+#correo .btn:hover{
+    background-color: black;
+    border-color: black;
+}
