@@ -1,4 +1,5 @@
 /* Barra de navegacion */
+
 .navbar{
     box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
 }
@@ -123,4 +124,9 @@ body{
 #correo .btn:hover{
     background-color: black;
     border-color: black;
+}
+
+/* footer */
+footer a:hover{
+    color: #e5345b !important;
 }
